@@ -1,0 +1,527 @@
+<2018-01-03 13:17:36:800>     <127.0.0.1>         <49756> NOT LOGIN           P/PORTAL             / Index_controller / fad_action
+<2018-01-03 13:17:36:800>     <127.0.0.1>         <49756> NOT LOGIN           E/ERROR             ReflectionException: Method fad_action does not exist in /home/xiaoyu/myCodes/xiaoyu/framework/Portal.php:45
+Stack trace:
+#0 /home/xiaoyu/myCodes/xiaoyu/framework/Portal.php(45): ReflectionClass->getMethod('fad_action')
+#1 /home/xiaoyu/myCodes/xiaoyu/framework/index.php(5): start()
+#2 {main}
+<2018-01-03 13:17:40:998>     <127.0.0.1>         <49756> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:17:40:998>     <127.0.0.1>         <49756> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:18:03:970>     <127.0.0.1>         <49756> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:18:03:970>     <127.0.0.1>         <49756> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:29:34:719>     <127.0.0.1>         <49816> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:29:34:719>     <127.0.0.1>         <49816> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:29:46:566>     <127.0.0.1>         <49816> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:29:46:567>     <127.0.0.1>         <49816> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:36:48:721>     <127.0.0.1>         <49994> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:36:48:722>     <127.0.0.1>         <49994> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app//.html
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app//.html load failed.
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app//.html
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app//.html load failed.
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app//.html
+<2018-01-03 13:37:36:265>     <127.0.0.1>         <49994> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app//.html load failed.
+<2018-01-03 13:39:30:762>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:39:30:762>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:40:34:694>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:40:34:695>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:40:34:695>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL               /
+<2018-01-03 13:41:23:608>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:41:23:608>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:41:23:608>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL               
+<2018-01-03 13:41:40:441>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:41:40:441>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:41:40:441>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL               
+<2018-01-03 13:42:31:693>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:42:31:694>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:42:31:694>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL1              
+<2018-01-03 13:43:02:121>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:43:02:121>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:43:02:121>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL1              
+<2018-01-03 13:43:17:305>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:43:17:305>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:43:17:305>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL1              
+<2018-01-03 13:43:47:735>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:43:47:735>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:43:47:736>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL1              
+<2018-01-03 13:43:47:736>     <127.0.0.1>         <50000> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html
+<2018-01-03 13:43:47:736>     <127.0.0.1>         <50000> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:43:47:736>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL1              123
+<2018-01-03 13:43:47:736>     <127.0.0.1>         <50000> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html
+<2018-01-03 13:43:47:736>     <127.0.0.1>         <50000> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 13:43:47:737>     <127.0.0.1>         <50000> NOT LOGIN           L/TPL1              
+<2018-01-03 13:43:47:737>     <127.0.0.1>         <50000> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html
+<2018-01-03 13:43:47:737>     <127.0.0.1>         <50000> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:44:12:623>     <127.0.0.1>         <50000> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:44:12:624>     <127.0.0.1>         <50000> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:44:12:624>     <127.0.0.1>         <50000> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html
+<2018-01-03 13:44:12:624>     <127.0.0.1>         <50000> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:44:12:624>     <127.0.0.1>         <50000> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html
+<2018-01-03 13:44:12:624>     <127.0.0.1>         <50000> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 13:44:12:624>     <127.0.0.1>         <50000> NOT LOGIN           T/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html
+<2018-01-03 13:44:12:624>     <127.0.0.1>         <50000> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:48:57:714>     <127.0.0.1>         <50146> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:48:57:714>     <127.0.0.1>         <50146> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:48:57:715>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:48:57:715>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 13:48:57:715>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:49:59:917>     <127.0.0.1>         <50146> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:49:59:918>     <127.0.0.1>         <50146> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:49:59:918>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:49:59:918>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:49:59:918>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               123
+<2018-01-03 13:49:59:918>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 13:49:59:918>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:49:59:918>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               123
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               123
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:11:243>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           L/header            
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               123
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               123
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:40:330>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:50:40:340>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           L/header            
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               123
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               123
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 13:51:19:737>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:51:19:738>     <127.0.0.1>         <50146> NOT LOGIN           L/TPL               
+<2018-01-03 13:51:19:738>     <127.0.0.1>         <50146> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 14:00:58:916>     <127.0.0.1>         <50156> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:00:58:916>     <127.0.0.1>         <50156> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:00:58:916>     <127.0.0.1>         <50156> NOT LOGIN           L/header            
+<2018-01-03 14:00:58:916>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:00:58:916>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:00:58:917>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 14:00:58:917>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               123
+<2018-01-03 14:00:58:917>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               123
+<2018-01-03 14:00:58:917>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 14:00:58:917>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:00:58:917>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:00:58:917>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 14:01:17:438>     <127.0.0.1>         <50156> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:01:17:438>     <127.0.0.1>         <50156> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           L/header            
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               123
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               123
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               
+<2018-01-03 14:01:17:439>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/.html load failed.
+<2018-01-03 14:01:43:771>     <127.0.0.1>         <50156> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:01:43:771>     <127.0.0.1>         <50156> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           L/header            index/header
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               index/header
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               index/header
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/indexheader.html load failed.
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               123
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               123
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               index/footer
+<2018-01-03 14:01:43:772>     <127.0.0.1>         <50156> NOT LOGIN           L/TPL               index/footer
+<2018-01-03 14:01:43:773>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/indexfooter.html load failed.
+<2018-01-03 14:02:21:438>     <127.0.0.1>         <50156> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:02:21:438>     <127.0.0.1>         <50156> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:02:21:438>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/indexheader.html load failed.
+<2018-01-03 14:02:21:439>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/123.html load failed.
+<2018-01-03 14:02:21:439>     <127.0.0.1>         <50156> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/indexfooter.html load failed.
+<2018-01-03 14:05:12:970>     <127.0.0.1>         <50160> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:05:12:980>     <127.0.0.1>         <50160> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:05:12:980>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/indexheader.html load failed.
+<2018-01-03 14:05:12:980>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/123.html load failed.
+<2018-01-03 14:05:12:980>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/indexfooter.html load failed.
+<2018-01-03 14:06:08:701>     <127.0.0.1>         <50160> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:06:08:701>     <127.0.0.1>         <50160> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:06:08:701>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/indexheader.html load failed.
+<2018-01-03 14:06:08:701>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/123.html load failed.
+<2018-01-03 14:06:08:701>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/indexfooter.html load failed.
+<2018-01-03 14:06:57:502>     <127.0.0.1>         <50160> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:06:57:503>     <127.0.0.1>         <50160> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:06:57:503>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:06:57:503>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:06:57:503>     <127.0.0.1>         <50160> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 14:15:33:982>     <127.0.0.1>         <50238> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:15:33:982>     <127.0.0.1>         <50238> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:15:33:982>     <127.0.0.1>         <50238> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:15:33:982>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:15:33:982>     <127.0.0.1>         <50238> NOT LOGIN           L/path              []
+<2018-01-03 14:15:33:983>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:15:33:983>     <127.0.0.1>         <50238> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:15:33:983>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 14:16:17:603>     <127.0.0.1>         <50238> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:16:17:603>     <127.0.0.1>         <50238> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:16:17:603>     <127.0.0.1>         <50238> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:16:17:603>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:16:17:604>     <127.0.0.1>         <50238> NOT LOGIN           L/path              []
+<2018-01-03 14:16:17:604>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:16:17:604>     <127.0.0.1>         <50238> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:16:17:604>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 14:16:39:691>     <127.0.0.1>         <50238> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:16:39:691>     <127.0.0.1>         <50238> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:16:39:691>     <127.0.0.1>         <50238> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:16:39:691>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:16:39:692>     <127.0.0.1>         <50238> NOT LOGIN           L/path              []
+<2018-01-03 14:16:39:692>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:16:39:692>     <127.0.0.1>         <50238> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:16:39:692>     <127.0.0.1>         <50238> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 14:39:56:137>     <127.0.0.1>         <50256> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:39:56:137>     <127.0.0.1>         <50256> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:39:56:137>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:39:56:137>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:39:56:137>     <127.0.0.1>         <50256> NOT LOGIN           L/path              []
+<2018-01-03 14:39:56:137>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:39:56:137>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:39:56:138>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           L/path              []
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:40:17:612>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 14:40:38:226>     <127.0.0.1>         <50256> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:40:38:226>     <127.0.0.1>         <50256> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:40:38:226>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:40:38:226>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:40:38:226>     <127.0.0.1>         <50256> NOT LOGIN           L/path              []
+<2018-01-03 14:40:38:226>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:40:38:226>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:40:38:227>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 14:40:57:362>     <127.0.0.1>         <50256> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 14:40:57:362>     <127.0.0.1>         <50256> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 14:40:57:362>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:40:57:362>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 14:40:57:362>     <127.0.0.1>         <50256> NOT LOGIN           L/path              []
+<2018-01-03 14:40:57:362>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl//123.html load failed.
+<2018-01-03 14:40:57:362>     <127.0.0.1>         <50256> NOT LOGIN           L/path              ["index"]
+<2018-01-03 14:40:57:363>     <127.0.0.1>         <50256> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 15:22:00:795>     <127.0.0.1>         <50280> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:22:00:796>     <127.0.0.1>         <50280> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:22:00:796>     <127.0.0.1>         <50280> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:22:00:796>     <127.0.0.1>         <50280> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html load failed.
+<2018-01-03 15:22:00:796>     <127.0.0.1>         <50280> NOT LOGIN           L/path              []
+<2018-01-03 15:22:00:796>     <127.0.0.1>         <50280> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/123.html load failed.
+<2018-01-03 15:22:00:796>     <127.0.0.1>         <50280> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:22:00:796>     <127.0.0.1>         <50280> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html load failed.
+<2018-01-03 15:24:15:368>     <127.0.0.1>         <50282> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:24:15:369>     <127.0.0.1>         <50282> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:24:15:369>     <127.0.0.1>         <50282> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:24:15:369>     <127.0.0.1>         <50282> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:24:15:369>     <127.0.0.1>         <50282> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:31:35:559>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:31:35:559>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:31:35:560>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:31:35:560>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:31:42:352>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:31:42:352>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:31:42:352>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:31:42:352>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:31:42:353>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:05:218>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:05:218>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:05:218>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:05:219>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:05:219>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:17:475>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:17:475>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:17:475>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:17:476>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:17:476>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:23:535>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:23:535>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:23:535>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:23:536>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:23:536>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:118>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:25:119>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:25:119>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:119>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:119>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:329>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:25:329>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:25:329>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:329>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:329>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:518>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:25:518>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:25:518>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:518>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:519>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:668>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:25:668>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:25:668>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:668>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:668>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:822>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:25:822>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:25:822>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:823>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:25:823>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:40:190>     <127.0.0.1>         <50284> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:32:40:190>     <127.0.0.1>         <50284> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:32:40:190>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:40:190>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:32:40:190>     <127.0.0.1>         <50284> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:33:46:479>     <127.0.0.1>         <50372> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:33:46:479>     <127.0.0.1>         <50372> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:33:46:479>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:33:46:479>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:34:00:716>     <127.0.0.1>         <50372> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:34:00:717>     <127.0.0.1>         <50372> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:34:00:717>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:34:00:717>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:34:00:717>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:34:08:494>     <127.0.0.1>         <50372> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:34:08:495>     <127.0.0.1>         <50372> NOT LOGIN           D/MODULE            jackson
+<2018-01-03 15:34:08:495>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:34:08:495>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:34:08:495>     <127.0.0.1>         <50372> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:44:53:561>     <127.0.0.1>         <50636> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:44:53:561>     <127.0.0.1>         <50636> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:44:53:561>     <127.0.0.1>         <50636> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:44:53:562>     <127.0.0.1>         <50636> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:54:434>     <127.0.0.1>         <50958> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:54:54:434>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:54:434>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:54:435>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:54:990>     <127.0.0.1>         <50958> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:54:54:990>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:54:991>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:54:991>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:55:475>     <127.0.0.1>         <50958> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:54:55:476>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:55:476>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:55:476>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:58:930>     <127.0.0.1>         <50958> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:54:58:930>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:58:930>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:54:58:930>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:55:00:329>     <127.0.0.1>         <50958> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:55:00:329>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:55:00:329>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:55:00:329>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:55:04:483>     <127.0.0.1>         <50958> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 15:55:04:483>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:55:04:483>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 15:55:04:483>     <127.0.0.1>         <50958> NOT LOGIN           L/path              ["index"]
+<2018-01-03 16:01:13:910>     <127.0.0.1>         <51074> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:01:13:910>     <127.0.0.1>         <51074> NOT LOGIN           L/protreat          true
+<2018-01-03 16:01:13:910>     <127.0.0.1>         <51074> NOT LOGIN           L/posttreat         true
+<2018-01-03 16:01:24:767>     <127.0.0.1>         <51074> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:01:24:768>     <127.0.0.1>         <51074> NOT LOGIN           L/protreat          false
+<2018-01-03 16:01:24:768>     <127.0.0.1>         <51074> NOT LOGIN           L/posttreat         false
+<2018-01-03 16:03:17:298>     <127.0.0.1>         <51080> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:03:22:381>     <127.0.0.1>         <51080> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:04:05:641>     <127.0.0.1>         <51080> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:05:13:380>     <127.0.0.1>         <51080> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:34:43:665>     <127.0.0.1>         <51442> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:34:43:665>     <127.0.0.1>         <51442> NOT LOGIN           L/TPLout            1
+<2018-01-03 16:34:43:665>     <127.0.0.1>         <51442> NOT LOGIN           L/TPLout            1
+<2018-01-03 16:34:43:665>     <127.0.0.1>         <51442> NOT LOGIN           L/TPLout            1
+<2018-01-03 16:44:56:966>     <127.0.0.1>         <51938> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:44:56:966>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/header.js load failed.
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           L/TPLout            /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/header.js load failed.
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/index.js load failed.
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           L/TPLout            /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/index.html
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/index.js load failed.
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/footer.js load failed.
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           L/TPLout            /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html
+<2018-01-03 16:44:56:967>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/footer.js load failed.
+<2018-01-03 16:45:10:462>     <127.0.0.1>         <51938> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:45:10:462>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/header.js load failed.
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           L/TPLout            /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/header.html
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/header.js load failed.
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/index.js load failed.
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           L/TPLout            /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/index.html
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/index.js load failed.
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/footer.js load failed.
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           L/TPLout            /home/xiaoyu/myCodes/xiaoyu/framework/../app/tpl/index/footer.html
+<2018-01-03 16:45:10:463>     <127.0.0.1>         <51938> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/footer.js load failed.
+<2018-01-03 16:48:03:739>     <127.0.0.1>         <51944> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:48:15:904>     <127.0.0.1>         <51944> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 16:48:15:905>     <127.0.0.1>         <51944> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/header.js load failed.
+<2018-01-03 16:48:15:905>     <127.0.0.1>         <51944> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/header.js load failed.
+<2018-01-03 16:48:15:905>     <127.0.0.1>         <51944> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/index.js load failed.
+<2018-01-03 16:48:15:905>     <127.0.0.1>         <51944> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/index.js load failed.
+<2018-01-03 16:48:15:905>     <127.0.0.1>         <51944> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/css/index/footer.js load failed.
+<2018-01-03 16:48:15:905>     <127.0.0.1>         <51944> NOT LOGIN           E/TPL               /home/xiaoyu/myCodes/xiaoyu/framework/../app/js/index/footer.js load failed.
+<2018-01-03 17:02:26:510>     <127.0.0.1>         <52416> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:02:26:510>     <127.0.0.1>         <52416> NOT LOGIN           L/layout            <html>
+  <head>
+
+
+
+  </head>
+  <body>
+
+<2018-01-03 17:02:26:510>     <127.0.0.1>         <52416> NOT LOGIN           L/layout            <?php 
+$arr = array(1,2,3,4,5,6,7,8,9,0);
+echo "哈哈";
+foreach ($arr as $i => $v) {
+  echo $i . "/" . $v;
+  echo "<br>";
+}
+
+
+?>
+
+<2018-01-03 17:02:26:511>     <127.0.0.1>         <52416> NOT LOGIN           L/layout            
+  </body>
+
+</html>
+
+<2018-01-03 17:05:30:600>     <127.0.0.1>         <52418> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:05:44:231>     <127.0.0.1>         <52418> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:06:38:411>     <127.0.0.1>         <52418> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:07:05:494>     <127.0.0.1>         <52418> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:07:05:494>     <127.0.0.1>         <52418> NOT LOGIN           L/layout            <html>
+  <head>
+
+
+
+  </head>
+  <body>
+
+<2018-01-03 17:07:05:495>     <127.0.0.1>         <52418> NOT LOGIN           L/layout            <?php 
+$arr = array(1,2,3,4,5,6,7,8,9,0);
+echo "哈哈";
+foreach ($arr as $i => $v) {
+  echo $i . "/" . $v;
+  echo "<br>";
+}
+
+
+?>
+
+<2018-01-03 17:07:05:495>     <127.0.0.1>         <52418> NOT LOGIN           L/layout            
+  </body>
+
+</html>
+
+<2018-01-03 17:08:36:190>     <127.0.0.1>         <52426> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:08:36:190>     <127.0.0.1>         <52426> NOT LOGIN           L/layout            <html>
+  <head>
+
+
+
+  </head>
+  <body>
+
+<2018-01-03 17:08:36:190>     <127.0.0.1>         <52426> NOT LOGIN           L/layout            <?php 
+$arr = array(1,2,3,4,5,6,7,8,9,0);
+echo "哈哈";
+foreach ($arr as $i => $v) {
+  echo $i . "/" . $v;
+  echo "<br>";
+}
+
+
+?>
+
+<2018-01-03 17:08:36:200>     <127.0.0.1>         <52426> NOT LOGIN           L/layout            
+  </body>
+
+</html>
+
+<2018-01-03 17:24:42:490>     <127.0.0.1>         <52436> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:24:42:500>     <127.0.0.1>         <52436> NOT LOGIN           L/layout            <html>
+  <head>
+
+
+
+  </head>
+  <body>
+
+<2018-01-03 17:24:42:500>     <127.0.0.1>         <52436> NOT LOGIN           L/layout            <?php 
+$arr = array(1,2,3,4,5,6,7,8,9,0);
+echo "哈哈";
+foreach ($arr as $i => $v) {
+  echo $i . "/" . $v;
+  echo "<br>";
+}
+
+
+?>
+
+<2018-01-03 17:24:42:500>     <127.0.0.1>         <52436> NOT LOGIN           L/layout            
+  </body>
+
+</html>
+
+<2018-01-03 17:24:55:429>     <127.0.0.1>         <52436> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:24:55:429>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:24:55:433>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:24:55:466>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:25:46:186>     <127.0.0.1>         <52436> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:25:46:187>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:25:46:187>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:25:46:187>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:25:50:628>     <127.0.0.1>         <52436> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:25:50:629>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:25:50:667>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:25:50:702>     <127.0.0.1>         <52436> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:28:03:532>     <127.0.0.1>         <52474> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:28:03:533>     <127.0.0.1>         <52474> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:28:03:533>     <127.0.0.1>         <52474> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:41:30:819>     <127.0.0.1>         <53036> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:41:30:820>     <127.0.0.1>         <53036> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:41:30:820>     <127.0.0.1>         <53036> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:41:30:820>     <127.0.0.1>         <53036> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:45:18:375>     <127.0.0.1>         <53312> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:45:18:376>     <127.0.0.1>         <53312> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:45:18:376>     <127.0.0.1>         <53312> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:45:18:376>     <127.0.0.1>         <53312> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:45:47:738>     <127.0.0.1>         <53312> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:45:47:738>     <127.0.0.1>         <53312> NOT LOGIN           L/mdata             id is 123
+<2018-01-03 17:45:47:739>     <127.0.0.1>         <53312> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:45:47:739>     <127.0.0.1>         <53312> NOT LOGIN           L/mdata             id is 123
+<2018-01-03 17:45:47:739>     <127.0.0.1>         <53312> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:45:47:739>     <127.0.0.1>         <53312> NOT LOGIN           L/mdata             id is 123
+<2018-01-03 17:45:47:739>     <127.0.0.1>         <53312> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:49:59:510>     <127.0.0.1>         <53318> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:49:59:510>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:49:59:511>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:49:59:511>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:50:01:569>     <127.0.0.1>         <53318> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:50:01:570>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:50:01:570>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:50:01:570>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:50:25:840>     <127.0.0.1>         <53318> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:50:25:840>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:50:25:840>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:50:25:850>     <127.0.0.1>         <53318> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:52:29:648>     <127.0.0.1>         <53342> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:52:29:648>     <127.0.0.1>         <53342> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:52:29:648>     <127.0.0.1>         <53342> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:52:29:648>     <127.0.0.1>         <53342> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:52:38:985>     <127.0.0.1>         <53342> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-03 17:52:38:985>     <127.0.0.1>         <53342> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:52:38:985>     <127.0.0.1>         <53342> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile
+<2018-01-03 17:52:38:986>     <127.0.0.1>         <53342> NOT LOGIN           L/cfile             /home/xiaoyu/myCodes/xiaoyu/framework/../app/tempfile

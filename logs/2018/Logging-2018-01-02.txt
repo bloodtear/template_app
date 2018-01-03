@@ -1,0 +1,18 @@
+<2018-01-02 17:16:41:181>     <127.0.0.1>         <47530> NOT LOGIN           P/PORTAL            user/login / Index_controller / index_action
+<2018-01-02 17:16:56:553>     <127.0.0.1>         <47530> NOT LOGIN           P/PORTAL            user/login / Index_controller / index_action
+<2018-01-02 17:17:02:850>     <127.0.0.1>         <47530> NOT LOGIN           P/PORTAL             / Index_controller / index_action
+<2018-01-02 17:17:02:860>     <127.0.0.1>         <47530> NOT LOGIN           D/MODULE            jackson
+<2018-01-02 17:17:16:100>     <127.0.0.1>         <47530> NOT LOGIN           P/PORTAL            path / Controller_controller / action_action
+<2018-01-02 17:17:27:363>     <127.0.0.1>         <47530> NOT LOGIN           P/PORTAL            path / Controller_controller / acti_action
+<2018-01-02 17:17:34:955>     <127.0.0.1>         <47530> NOT LOGIN           P/PORTAL             / Index_controller / fad_action
+<2018-01-02 17:17:34:955>     <127.0.0.1>         <47530> NOT LOGIN           E/ERROR             ReflectionException: Method fad_action does not exist in /home/xiaoyu/myCodes/xiaoyu/framework/Portal.php:36
+Stack trace:
+#0 /home/xiaoyu/myCodes/xiaoyu/framework/Portal.php(36): ReflectionClass->getMethod('fad_action')
+#1 /home/xiaoyu/myCodes/xiaoyu/framework/index.php(5): start()
+#2 {main}
+<2018-01-02 17:19:20:230>     <127.0.0.1>         <47546> NOT LOGIN           P/PORTAL             / Index_controller / fad_action
+<2018-01-02 17:19:20:230>     <127.0.0.1>         <47546> NOT LOGIN           E/ERROR             ReflectionException: Method fad_action does not exist in /home/xiaoyu/myCodes/xiaoyu/framework/Portal.php:36
+Stack trace:
+#0 /home/xiaoyu/myCodes/xiaoyu/framework/Portal.php(36): ReflectionClass->getMethod('fad_action')
+#1 /home/xiaoyu/myCodes/xiaoyu/framework/index.php(5): start()
+#2 {main}

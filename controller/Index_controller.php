@@ -1,13 +1,18 @@
 <?php
 
 class Index_controller {
+  function pretreat(){
+    echo "pretreat";
+  }
+
+  function posttreat(){
+    echo "posttreat";
+  }
 
   function index_action() {
-      echo "index_conroller/index_action";
-      return array(
-        "op" => "act",
-        "data" => '123'
-      );
+      $tpl = new Tpl('index/header', 'index/footer');
+      $tpl->set("id", 123);
+      $tpl->view('index/index');
   }
 
 
