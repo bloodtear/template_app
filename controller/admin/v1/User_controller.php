@@ -14,6 +14,7 @@ class User_controller {
   }
 
   function login_ajax(){
+    echo 123;
 
   }
 }
