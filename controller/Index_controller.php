@@ -10,6 +10,7 @@ class Index_controller {
   }
 
   function index_action() {
+      go("login/login");
       $tpl = new Tpl('index/header', 'index/footer');
 
       $ar = array(
