@@ -9,8 +9,8 @@ $('#sub_btn').click(function (){
   console.log(username);
   console.log(password);
 
-  //__ajax('login.login',{username: username, password: password},function (data){
-  __ajax('photograph.enjoy.company.user.addasdf',{username: username, password: password},function (data){
+  __ajax('login.login',{username: username, password: password},function (data){
+  //__ajax('photograph.enjoy.company.user.addasdf',{username: username, password: password},function (data){
 
   });
 

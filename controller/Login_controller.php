@@ -1,4 +1,5 @@
 <?php
+include_once(rtrim(APP_PATH, "/") . "/config.php");
 
 class Login_controller {
   function pretreat(){
@@ -14,15 +15,39 @@ class Login_controller {
     $tpl->view('login/login');
   }
 
+  function register_action() {
+    $tpl = new Tpl('index/header', 'index/footer');
+    $tpl->view('login/register');
+  }
+
   function login_ajax(){
     $username = get_request("username");
     $password = get_request("password");
 
-    Logging::l("LOGIN_UN", $username);
-    Logging::l("LOGIN_PD", $password);
-    return 123;
-    return array("ret" => 'success', "data" => 234);
+    $user = User::get_one($username, $password);
+    $user->login();
+    return $user ? array("ret" => "success" , "data" => $user) : array("ret" => "fail" , "reason" => "no user.") ;
+    
   }
+
+  function register_ajax(){
+    $username = get_request("username");
+    $password = get_request("password");
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
