@@ -13,9 +13,8 @@ class Db_user extends Database_table {
 
 
 
-  public function one($username){
-    return $this->get_one("username = '$username'");
-
+  public function one($username, $password){
+    return $this->get_one("username = '$username' and password = '$password'");
   }
 
 

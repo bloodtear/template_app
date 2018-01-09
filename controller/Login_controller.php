@@ -25,8 +25,11 @@ class Login_controller {
     $password = get_request("password");
 
     $user = User::get_one($username, $password);
-    $user->login();
-    return $user ? array("ret" => "success" , "data" => $user) : array("ret" => "fail" , "reason" => "no user.") ;
+    logging::d("ret", json_encode($user));
+    if (!empty($user)) {
+      $user->do_login();
+    }
+    return !empty($user) ? array("ret" => "success" , "data" => $user->packInfo()) : array("ret" => "fail" , "reason" => "no user.") ;
     
   }
 
