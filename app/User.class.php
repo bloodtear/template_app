@@ -36,7 +36,6 @@ class User {
 
   public function username() {
     $data = $this->data;
-    logging::l("USER", $data);
     return $data['username'];
   }
 
