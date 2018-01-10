@@ -1,17 +1,19 @@
 <?php
+include_once(rtrim(APP_PATH, "/") . "/config.php");
 
 class Index_controller {
   function pretreat(){
-    echo "pretreat";
+    User::login_check();
+    //echo "pretreat";
   }
 
   function posttreat(){
-    echo "posttreat";
+    //echo "posttreat";
   }
 
   function index_action() {
-      go("login/login");
-      $tpl = new Tpl('index/header', 'index/footer');
+      //go("login/login");
+      $tpl = Tpl::instance('index/header', 'index/footer');
 
       $ar = array(
         "a" => 2,

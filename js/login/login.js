@@ -10,9 +10,19 @@ $('#sub_btn').click(function (){
   console.log(password);
 
   __ajax('login.login',{username: username, password: password},function (data){
-  //__ajax('photograph.enjoy.company.user.addasdf',{username: username, password: password},function (data){
-
+    var ret = data.ret;
+    if (ret == 'login') {
+      go("index/index");
+    }else if (ret == 'fail') {
+      alert(data.reason);
+    }
   });
+
+});
+
+$('#go_register').click(function(){
+    go("login/register");
+
 
 });
 

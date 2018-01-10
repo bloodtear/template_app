@@ -11,12 +11,12 @@ class Login_controller {
   }
 
   function login_action() {
-    $tpl = new Tpl('index/header', 'index/footer');
+    $tpl = Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/login');
   }
 
   function register_action() {
-    $tpl = new Tpl('index/header', 'index/footer');
+    $tpl = Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/register');
   }
 
@@ -29,7 +29,7 @@ class Login_controller {
     if (!empty($user)) {
       $user->do_login();
     }
-    return !empty($user) ? array("ret" => "success" , "data" => $user->packInfo()) : array("ret" => "fail" , "reason" => "no user.") ;
+    return !empty($user) ? ret_success("login", $user->packInfo()) : ret_fail("no user.") ;
     
   }
 
@@ -37,7 +37,19 @@ class Login_controller {
     $username = get_request("username");
     $password = get_request("password");
 
+    $user = User::check_one($username);
+    if (!empty($user)) {
+      return ret_fail("用户已经存在");
+    }
+    $ret = User::create($username, $password);
     
+    return !empty($ret) ? ret_success("register", $ret) : ret_fail("register failed.") ;
+  }
+
+  function logout_ajax(){
+    $username = get_request("username");
+    unset($_SESSION['username']);
+    return ret_success('logout');
   }
 
 

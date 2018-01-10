@@ -18,6 +18,7 @@ function __ajax(action, data, callback) {
 
 }
 
-function logout() {
-  console.log('main.js');
+function go(url) {
+  console.log(url);
+  window.location.href = "?" + url; 
 }

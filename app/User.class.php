@@ -13,7 +13,24 @@ class User {
   }
 
   public static function get_one($username, $password) {
-    $data = Db_user::instance()->one($username, $password);
+    $data = Db_user::instance()->one_by_name_pwd($username, $password);
+    if (empty($data)) {
+      return false;
+    }
+    return new User($data);
+  }
+
+  public static function create($username, $password) {
+    $ret = Db_user::instance()->add($username, $password);
+    if (empty($ret)) {
+      return false;
+    }
+    return true;
+  }
+
+
+  public static function check_one($username) {
+    $data = Db_user::instance()->one_by_username($username);
     if (empty($data)) {
       return false;
     }
@@ -79,6 +96,14 @@ class User {
       "modify_time" => $this->modify_time(),
       "last_login" => $this->last_login()
     );
+  }
+
+  public static function login_check() {
+    if (empty(get_session("username"))) {
+      go("login/login");
+      return false;
+    }
+    return true;
   }
 
 
