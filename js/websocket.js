@@ -1,7 +1,7 @@
 function websocket_init () {
   if ("WebSocket" in window){
     // 打开一个 web socket
-    var ws = new WebSocket("ws://180.76.160.113:9501");
+    var ws = new WebSocket("wss://www.bloodtear.cn:9501");
       
     ws.onopen = function(){
       console.log("ws connected.");
