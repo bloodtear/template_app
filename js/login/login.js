@@ -12,6 +12,7 @@ $('#sub_btn').click(function (){
   __ajax('login.login',{username: username, password: password},function (data){
     var ret = data.ret;
     if (ret == 'login') {
+      setCookie("username", username, 10);
       go("index/index");
     }else if (ret == 'fail') {
       alert(data.reason);

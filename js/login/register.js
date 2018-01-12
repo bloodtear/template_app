@@ -7,6 +7,11 @@ $('#do_register').click(function (){
   var password = $('#password').val();
   var password_2nd = $('#password_2nd').val();
 
+  if (username == '' || password == '' || password_2nd == '') {
+    alert('内容请填写完整');
+    return false;    
+  }
+
   if (password != password_2nd) {
     alert('密码不一致');
     return false;
