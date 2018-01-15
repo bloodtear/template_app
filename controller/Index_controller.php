@@ -12,7 +12,10 @@ class Index_controller {
   }
 
   function index_action() {
-      //go("login/login");
+
+      $redis = Cache::instance();
+      $redis->set('years', 22);
+
       $tpl = Tpl::instance('index/header', 'index/footer');
 
       $ar = array(
@@ -32,6 +35,7 @@ class Index_controller {
       $tpl->set("name", "xiaoyu");
       $tpl->set("xy", $xy);
       $tpl->set("ar", $ar);
+      $tpl->set("years", $redis->get('years'));
       $tpl->view('index/index');
   }
 
