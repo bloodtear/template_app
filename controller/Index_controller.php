@@ -13,10 +13,13 @@ class Index_controller {
 
   function index_action() {
 
-      $redis = Cache::instance();
-      $redis->set('years', 22);
 
       $tpl = Tpl::instance('index/header', 'index/footer');
+
+      $cache = Cache::instance();
+      $chat_list = $cache->list_all("chat_list");
+      
+      var_dump($chat_list);
 
       $ar = array(
         "a" => 2,
@@ -35,7 +38,6 @@ class Index_controller {
       $tpl->set("name", "xiaoyu");
       $tpl->set("xy", $xy);
       $tpl->set("ar", $ar);
-      $tpl->set("years", $redis->get('years'));
       $tpl->view('index/index');
   }
 
