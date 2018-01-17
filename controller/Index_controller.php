@@ -17,9 +17,9 @@ class Index_controller {
       $tpl = Tpl::instance('index/header', 'index/footer');
 
       $cache = Cache::instance();
-      $chat_list = $cache->list_all("chat_list");
+      $chat_list_history = $cache->list_all("chat_list");
       
-      var_dump($chat_list);
+      $chat_list_history;
 
       $ar = array(
         "a" => 2,
@@ -36,6 +36,7 @@ class Index_controller {
       $xy->year = 30;
       $tpl->set("id", 123);
       $tpl->set("name", "xiaoyu");
+      $tpl->set("chat_list_history", $chat_list_history);
       $tpl->set("xy", $xy);
       $tpl->set("ar", $ar);
       $tpl->view('index/index');

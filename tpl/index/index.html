@@ -1,11 +1,19 @@
 <div>
 <?php
 
+$history_show = '';
+if (!empty($chat_list_history)) {
+  foreach ($chat_list_history as $chat_line) {
+    $chat_msg = json_decode($chat_line);
+    $msg = $chat_msg->data;
+    $history_show .= "<div>$msg</div>";
+  }
+}
 
 
 ?>
 <div class='chat_room_div'>
-
+  {:$history_show}
 
 </div>
 <div class='input_div'>
