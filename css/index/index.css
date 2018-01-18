@@ -3,6 +3,7 @@
   width: 100%;
   margin-bottom: 100px;
   height: 100%;
+  overflow-y: auto;
 }
 
 .input_div {
