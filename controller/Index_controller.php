@@ -13,13 +13,12 @@ class Index_controller {
 
   function index_action() {
 
-
       $tpl = Tpl::instance('index/header', 'index/footer');
 
       $cache = Cache::instance();
       $chat_list_history = $cache->list_all("chat_list");
       
-      $chat_list_history;
+      
 
       $ar = array(
         "a" => 2,
