@@ -10,17 +10,17 @@ class Login_controller {
     
   }
 
-  function login_action() {
+  function login() {
     $tpl = Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/login');
   }
 
-  function register_action() {
+  function register() {
     $tpl = Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/register');
   }
 
-  function login_ajax(){
+  function do_login(){
     $username = get_request("username");
     $password = get_request("password");
 
@@ -33,7 +33,7 @@ class Login_controller {
     
   }
 
-  function register_ajax(){
+  function do_register(){
     $username = get_request("username");
     $password = get_request("password");
 
@@ -46,7 +46,7 @@ class Login_controller {
     return !empty($ret) ? ret_success("register", $ret) : ret_fail("register failed.") ;
   }
 
-  function logout_ajax(){
+  function do_logout(){
     $username = get_request("username");
     unset($_SESSION['username']);
     return ret_success('logout');

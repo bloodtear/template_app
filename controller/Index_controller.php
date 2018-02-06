@@ -11,7 +11,7 @@ class Index_controller {
     //echo "posttreat";
   }
 
-  function index_action() {
+  function index() {
 
       $tpl = Tpl::instance('index/header', 'index/footer');
 

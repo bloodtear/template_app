@@ -20,7 +20,7 @@ $('#do_register').click(function (){
   console.log(username);
   console.log(password);
 
-  __ajax('login.register',{username: username, password: password},function (data){
+  __ajax('login.do_register',{username: username, password: password},function (data){
     var ret = data.ret;
     if (ret == 'register') {
       go("index/index");

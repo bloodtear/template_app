@@ -2,7 +2,7 @@ function __ajax(action, data, callback) {
 
   $.ajax({
     type: "post",
-    url: 'ajax.php?action=' + action,
+    url: 'index.php?action=' + action,
     data: data,
     dataType: "json",
     success: function(data){

@@ -10,7 +10,7 @@ class User_controller {
     
   }
 
-  function add_action() {
+  function add() {
     //return 123;
     $db = Database::instance();
 

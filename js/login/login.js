@@ -9,7 +9,7 @@ $('#sub_btn').click(function (){
   console.log(username);
   console.log(password);
 
-  __ajax('login.login',{username: username, password: password},function (data){
+  __ajax('login.do_login',{username: username, password: password},function (data){
     var ret = data.ret;
     if (ret == 'login') {
       setCookie("username", username, 10);
