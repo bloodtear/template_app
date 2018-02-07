@@ -3,7 +3,7 @@ include_once(rtrim(APP_PATH, "/") . "/config.php");
 
 class Login_controller {
   function pretreat(){
-
+    User::login_check() ? go("index") : 1;
   }
 
   function posttreat(){
@@ -13,6 +13,7 @@ class Login_controller {
   function login() {
     $tpl = Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/login');
+
   }
 
   function register() {

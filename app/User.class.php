@@ -99,11 +99,7 @@ class User {
   }
 
   public static function login_check() {
-    if (empty(get_session("username"))) {
-      go("login/login");
-      return false;
-    }
-    return true;
+    return empty(get_session("username")) ? false : true;
   }
 
 

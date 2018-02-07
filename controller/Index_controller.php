@@ -2,8 +2,9 @@
 include_once(rtrim(APP_PATH, "/") . "/config.php");
 
 class Index_controller {
+
   function pretreat(){
-    User::login_check();
+    User::login_check() ? 1 : go("login/login");
     //echo "pretreat";
   }
 
