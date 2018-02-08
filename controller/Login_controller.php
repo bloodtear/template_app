@@ -11,7 +11,7 @@ class Login_controller {
   }
 
   function login() {
-    $tpl = Tpl::instance('index/header', 'index/footer');
+    $tpl = \framework\Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/login');
 
   }
@@ -26,7 +26,7 @@ class Login_controller {
     $password = get_request("password");
 
     $user = User::get_one($username, $password);
-    logging::d("ret", json_encode($user));
+    \framework\logging::d("ret", json_encode($user));
     if (!empty($user)) {
       $user->do_login();
     }

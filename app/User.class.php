@@ -99,7 +99,7 @@ class User {
   }
 
   public static function login_check() {
-    return empty(get_session("username")) ? false : true;
+    return empty(\get_session("username")) ? false : true;
   }
 
 

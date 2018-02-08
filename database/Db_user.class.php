@@ -1,6 +1,7 @@
 <?php
 
-class Db_user extends Database_table {
+
+class Db_user extends \framework\Database\Database_table {
 
   public static $instance;
 

@@ -14,9 +14,9 @@ class Index_controller {
 
   function index() {
 
-      $tpl = Tpl::instance('index/header', 'index/footer');
+      $tpl = \framework\Tpl::instance('index/header', 'index/footer');
 
-      $cache = Cache::instance();
+      $cache = \framework\Cache::instance();
       $chat_list_history = $cache->list_all("chat_list");
       
       
