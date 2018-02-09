@@ -1,9 +1,13 @@
 <?php
-include_once(rtrim(APP_PATH, "/") . "/config.php");
 
+namespace chat\controller;
+
+use \chat\app;
+
+include_once(rtrim(APP_PATH, "/") . "/config.php");
 class Login_controller {
   function pretreat(){
-    User::login_check() ? go("index") : 1;
+    \chat\app\User::login_check() ? go("index") : 1;
   }
 
   function posttreat(){
@@ -17,7 +21,7 @@ class Login_controller {
   }
 
   function register() {
-    $tpl = Tpl::instance('index/header', 'index/footer');
+    $tpl = \framework\Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/register');
   }
 
@@ -25,7 +29,7 @@ class Login_controller {
     $username = get_request("username");
     $password = get_request("password");
 
-    $user = User::get_one($username, $password);
+    $user = app\User::get_one($username, $password);
     \framework\logging::d("ret", json_encode($user));
     if (!empty($user)) {
       $user->do_login();
@@ -38,11 +42,11 @@ class Login_controller {
     $username = get_request("username");
     $password = get_request("password");
 
-    $user = User::check_one($username);
+    $user = app\User::check_one($username);
     if (!empty($user)) {
       return ret_fail("用户已经存在");
     }
-    $ret = User::create($username, $password);
+    $ret = app\User::create($username, $password);
     
     return !empty($ret) ? ret_success("register", $ret) : ret_fail("register failed.") ;
   }

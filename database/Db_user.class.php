@@ -1,5 +1,6 @@
 <?php
 
+namespace chat\database;
 
 class Db_user extends \framework\Database\Database_table {
 

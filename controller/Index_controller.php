@@ -1,10 +1,14 @@
 <?php
+
+namespace chat\controller;
+
+use \chat\app;
 include_once(rtrim(APP_PATH, "/") . "/config.php");
 
 class Index_controller {
 
   function pretreat(){
-    User::login_check() ? 1 : go("login/login");
+    app\User::login_check() ? 1 : go("login/login");
     //echo "pretreat";
   }
 
@@ -31,7 +35,7 @@ class Index_controller {
           )
         )
       );
-      $xy = new stdClass();
+      $xy = new \stdClass();
       $xy->name = 'xiaoyu';
       $xy->year = 30;
       $tpl->set("id", 123);
