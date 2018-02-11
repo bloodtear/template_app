@@ -1,8 +1,11 @@
 function __ajax(action, data, callback) {
-
+  if (data.action !== 'undefined') {
+    console.log("[ Warning ] Ajax data 'action' is not empty. Please make sure 'action' is not used or some para will lost.");
+  }
+  data.action = action;
   $.ajax({
     type: "post",
-    url: 'index.php?action=' + action,
+    url: 'index.php?',
     data: data,
     dataType: "json",
     success: function(data){
