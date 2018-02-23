@@ -5,7 +5,7 @@ function __ajax(action, data, callback) {
   data.action = action;
   $.ajax({
     type: "post",
-    url: 'index.php?',
+    url: '',
     data: data,
     dataType: "json",
     success: function(data){
@@ -23,7 +23,8 @@ function __ajax(action, data, callback) {
 
 function go(url) {
   console.log(url);
-  window.location.href = "?" + url; 
+  //window.location.href = "?" + url; 
+  window.location.href = window.location.protocol + "//" +window.location.host + "/" + url; 
 }
 
 
