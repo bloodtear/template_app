@@ -7,7 +7,7 @@ use \chat\app;
 include_once(rtrim(APP_PATH, "/") . "/config.php");
 class Login_controller {
   function pretreat(){
-    \chat\app\User::login_check() ? go("index") : 1;
+    
   }
 
   function posttreat(){
@@ -15,12 +15,14 @@ class Login_controller {
   }
 
   function login() {
+    \chat\app\User::login_check() ? go("index") : 1;
     $tpl = \framework\Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/login');
 
   }
 
   function register() {
+    \chat\app\User::login_check() ? go("index") : 1;
     $tpl = \framework\Tpl::instance('index/header', 'index/footer');
     $tpl->view('login/register');
   }
