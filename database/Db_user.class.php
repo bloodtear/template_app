@@ -8,7 +8,7 @@ class Db_user extends \framework\Database\Database_table {
 
   public static function instance (){
     if (empty(self::$instance)) {
-      self::$instance = new Db_user(DB_DBNAME, DB_USER);
+      self::$instance = new Db_user(DB_USER);
     }
     return self::$instance;
   }
