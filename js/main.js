@@ -1,3 +1,5 @@
+
+
 function __ajax(action, data, callback) {
   if (data.action !== 'undefined') {
     console.log("[ Warning ] Ajax data 'action' is not empty. Please make sure 'action' is not used or some para will lost.");
@@ -22,9 +24,10 @@ function __ajax(action, data, callback) {
 }
 
 function go(url) {
-  console.log(url);
-  //window.location.href = "?" + url; 
-  window.location.href = window.location.protocol + "//" +window.location.host + "/" + url; 
+  console.log(url);instance_url = window.location.protocol + "//" +window.location.host + '/xiaoyu/index.php';
+  console.log(instance_url);
+  window.location.href = instance_url + "?" + url; 
+  //window.location.href = window.location.protocol + "//" +window.location.host + "/" + url; 
 }
 
 
